@@ -1,5 +1,4 @@
 def prime?
-  it 'returns true for prime numbers' do
     puts(prime?(2))=(true)
     puts(prime?(3))=(true)
     puts(prime?(11))=(true)
@@ -7,7 +6,6 @@ def prime?
   end
 
 def non-prime
-  it 'returns false for non-prime numbers' do
     puts(prime?(-1))=(false), "Be sure to account for negative numbers!"
     puts(prime?(0))=(false)
     puts(prime?(1))=(false)
